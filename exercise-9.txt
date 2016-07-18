@@ -1,0 +1,13 @@
+CREATE TABLE Barn (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    chickens INT
+    );
+ 
+CREATE TABLE Chickens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    BarnID INT,
+    Chickens ENUM('Roosters', 'Hens', 'Chicks'),
+    Date_of_Birth DATETIME
+    );
+
+// Create two tables that will eventually be joined and which can provide us with the necessary information

@@ -1,0 +1,15 @@
+USE decodemtl_addressbook;
+CREATE TABLE Account (
+    id INT AUTO_INCREMENT PRIMARY KEY
+);
+CREATE TABLE Addressbook (
+    id INT AUTO_INCREMENT PRIMARY KEY
+);
+CREATE TABLE Entry (
+    id INT AUTO_INCREMENT PRIMARY KEY
+);
+CREATE TABLE Test (
+    id INT AUTO_INCREMENT PRIMARY KEY
+);
+
+// This puts you into your database and allows you to create a table

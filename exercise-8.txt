@@ -1,0 +1,6 @@
+ALTER TABLE Entry ADD COLUMN type ENUM('home', 'work', 'other');
+ALTER TABLE Entry ADD COLUMN subtype ENUM('phone', 'address', 'email'); 
+
+DESCRIBE Entry;
+
+// Alter adds in the columns and describe shows the results
