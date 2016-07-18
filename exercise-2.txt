@@ -1,0 +1,4 @@
+CREATE DATABASE decodemtl_test;
+CREATE DATABASE decodemtl_addressbook;
+
+// Creates both of the necessary databases

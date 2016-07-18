@@ -1,0 +1,3 @@
+mysql --user dysupes
+
+// logs me into the mysql instance in my workspace
